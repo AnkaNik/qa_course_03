@@ -6,9 +6,12 @@
 будет искать первый div внутри элемента h1
 
 <h1>Home page
+  
 <div>My favorite place</div>
 <div>Contacts</div>
+
 </h1>
 
 $("h1 div")  найдет два элемента My favorite place и Contacts
+
 $("h1").$("div") найдет  My favorite place
